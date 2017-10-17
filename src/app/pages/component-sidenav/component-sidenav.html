@@ -7,7 +7,7 @@
       <ul>
         <li *ngFor="let component of category.items">
           <a [routerLink]="'/' + (params | async)?.section+ '/' + component.id"
-             routerLinkActive="docs-component-viewer-sidenav-item-selected">
+            routerLinkActive="docs-component-viewer-sidenav-item-selected">
             {{component.name}}
           </a>
         </li>

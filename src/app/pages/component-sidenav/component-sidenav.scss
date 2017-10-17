@@ -16,6 +16,39 @@ app-component-sidenav {
 }
 
 .docs-component-viewer-sidenav {
+  width: $sidenav-width;
+  background: #f7f7f7;
+
+  h3 {
+    padding: 10px 15px;
+    color: #757575;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 0;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #cfd8dc;
+  }
+
+  li {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+    padding: 10px 15px;
+  }
+
+  a {
+    color: #212121;
+    text-decoration: none;
+  }
+
+  /*
   box-shadow: 3px 0 6px rgba(0, 0, 0, .24);
   padding-bottom: 72px;
   width: $sidenav-width;
@@ -74,6 +107,7 @@ app-component-sidenav {
       }
     }
   }
+  */
 }
 
 .docs-component-sidenav-content {
